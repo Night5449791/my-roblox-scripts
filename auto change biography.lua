@@ -27,7 +27,7 @@ heartbeatConnection = RunService.Heartbeat:Connect(function()
                     if nametag:FindFirstChild("Roleplay_Name") then
                         Event:FireServer(
                             "Text",
-                            "Filter",
+                            "Set", 
                             nametag.Biography,
                             "the rp name", -- biography change
                             "Biography"
